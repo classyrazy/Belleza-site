@@ -211,6 +211,9 @@ nav ul li a:active{
   color: rgb(87, 85, 85);
   font-size: 1.5rem;
 }
+.view-more-under-features:hover{
+  color: #ff1e00;
+}
 .features-con{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -267,10 +270,13 @@ nav ul li a:active{
 .feature-texts a{
   background-color: #d2321e;
   padding: 3px;
-  color: #333333;
+  color: #f1f1f1;
   border: 5px solid rgba(96, 96, 96, .1);
   border-radius: 5px;
   text-transform: uppercase;
+}
+.feature-texts a:hover{
+  opacity: .8;
 }
 .special-offer-con{
   width: 100%;
@@ -304,6 +310,9 @@ nav ul li a:active{
   text-transform: uppercase; 
   border-radius: 10px;
   color: white;
+}
+.special-offer-con a:hover{
+  background-color: #b1a6a6f5;
 }
 .whole-new-arrival-con{
   width: 80%;
